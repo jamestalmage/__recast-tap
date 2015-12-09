@@ -1,0 +1,39 @@
+{
+  "name": "recast-tap",
+  "version": "0.0.0",
+  "description": "My astonishing module",
+  "license": "MIT",
+  "repository": "jamestalmage/recast-tap",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "mkdirp": "^0.5.1",
+    "recast": "^0.10.39",
+    "rimraf": "^2.4.4",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js",
+      "output/*",
+      "_foo.js"
+    ]
+  }
+}
